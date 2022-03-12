@@ -1,0 +1,35 @@
+ p{
+	margin: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.button{
+	width: 40px;
+	cursor: pointer;
+	background-color: grey;
+}
+.results{
+	display: flex;
+	flex-wrap:wrap ;
+}
+.results .result1{
+	margin: 10px;
+	background-color: gold;
+}
+.results .result2{
+	margin: 10px;
+	background-color: gold;
+}
+.results .result3{
+	margin: 10px;
+	background-color: gold;
+}
+img{
+	height: 700px;
+}
+ul{
+	margin: 0;
+	list-style: none;
+	list-style-position: outside;
+}

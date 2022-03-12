@@ -2,81 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <style> 
-    p{
-        margin: 0;
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 20px;
-    }
-    .button{
-        width: 40px;
-        cursor: pointer;
-        background-color: grey;
-    }
-    .results{
-        display: flex;
-        flex-wrap:wrap ;
-    }
-    .results .result1{
-        margin: 10px;
-        background-color: gold;
-    }
-    .results .result2{
-        margin: 10px;
-        background-color: gold;
-    }
-    .results .result3{
-        margin: 10px;
-        background-color: gold;
-    }
-    img{
-        height: 700px;
-    }
-    ul{
-        margin: 0;
-        list-style: none;
-        list-style-position: outside;
-    }
-    </style>
+	<link rel="stylesheet" href="movie_db.css">
 </head>
 <body>
     <div class="button" type="button" onclick="imageDsp(image1,200,)">show image</div>
     <div class="button" type="button" onclick="draw()">Draw!</div>
     <div class="results">
-        <div class="result1">
-        <p id="mov1-1"></p>
-        <p id="mov1-2"></p>
-        <p id="mov1-3"></p>
-        <p id="mov1-4"></p>
-        <p id="mov1-5"></p>
-        <p id="mov1-6"></p>
-        </div>
-    
-        <div class="result2">
-        <p id="mov2-1"></p>
-        <p id="mov2-2"></p>
-        <p id="mov2-3"></p>
-        <p id="mov2-4"></p>
-        <p id="mov2-5"></p>
-        <p id="mov2-6"></p>
-        </div>
-    
-        <div class="result3">
-        <p id="mov3-1"></p>
-        <p id="mov3-2"></p>
-        <p id="mov3-3"></p>
-        <p id="mov3-4"></p>
-        <p id="mov3-5"></p>
-        <p id="mov3-6"></p>
-        </div>
     </div>
-    <ul>
-        <img id="movimage1">
-        <li id="movimage1"></li>
-        <li id="movimage2"></li>
-        <li id="movimage3"></li>
-    </ul>
     <script src="Movie Database.js"></script>
 </body>
 
